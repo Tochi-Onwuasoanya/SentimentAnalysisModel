@@ -55,9 +55,9 @@ To use the sentiment analysis model, follow these steps:
 6
 
 ## Example
-![Example Image](https://drive.google.com/file/d/1pxXS6mdqEzVBW91aiZl86rzlLpni62_k/view?usp=sharing)
+![Example Image] (https://drive.google.com/file/d/1pxXS6mdqEzVBW91aiZl86rzlLpni62_k/view?usp=sharing)
 
-![Example Image](https://drive.google.com/file/d/1RJ81-D39NOnkjDCI106ENKmae5Iu5uvr/view?usp=sharing)
+![Example Image] (https://drive.google.com/file/d/1RJ81-D39NOnkjDCI106ENKmae5Iu5uvr/view?usp=sharing)
 
 
 ## Dataset
