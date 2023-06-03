@@ -6,6 +6,7 @@ This project is a sentiment analysis model implemented using TensorFlow and Kera
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example](#example)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Evaluation](#evaluation)
@@ -51,6 +52,13 @@ To use the sentiment analysis model, follow these steps:
 4. Evaluate the model: The score_comment function provides functionality to score individual comments using the trained model. You can use this script to evaluate the model's performance on test data or new comments.
 
 5. Run the Gradio interface: The code to launch the Gradio interface is included in the code, so use the Gradio link that appears when the code is ran to test the model with a GUI. For more help with Gradio see this link: https://gradio.app/quickstart/
+6
+
+## Example
+![Example Image](https://drive.google.com/file/d/1pxXS6mdqEzVBW91aiZl86rzlLpni62_k/view?usp=sharing)
+
+![Example Image](https://drive.google.com/file/d/1RJ81-D39NOnkjDCI106ENKmae5Iu5uvr/view?usp=sharing)
+
 
 ## Dataset
 The sentiment analysis model requires a labeled dataset for training. The dataset should be in CSV format, with each row representing a comment and its corresponding sentiment labels. The dataset used in this project is from the Toxic Comment Classification Challenge on Kaggle:
