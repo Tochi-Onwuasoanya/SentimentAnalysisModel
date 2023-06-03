@@ -1,6 +1,6 @@
 # Sentiment Analysis Project
 
-This project is a sentiment analysis model implemented using TensorFlow and Keras. The model is trained to predict the sentiment of text data and classify it into different categories. Files include a Python file, a Jupyter Notebook file, and a requirements.txt file
+This project is a sentiment analysis model implemented using TensorFlow and Keras. The model is trained to predict the sentiment of text data and classify it into different categories. Files include a Python file, a Jupyter Notebook file, and a requirements.txt file.
 
 ## Table of Contents
 - [Overview](#overview)
