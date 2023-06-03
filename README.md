@@ -30,8 +30,8 @@ To run this project, you need to have the following dependencies installed:
 
 You can install the required dependencies by running the following command:
 
-```shell
 pip install -r requirements.txt
+
 
 ## Usage
 To use the sentiment analysis model, follow these steps:
