@@ -25,7 +25,7 @@ df.head()
 X = df['comment_text']
 y = df[df.columns[2:]].values
 
-# Define the maximum number of words in the vocabulary
+# Define the maximum number of words in the vocabulary. Feel free to change.
 MAX_FEATURES = 200000
 
 # Create a text vectorization layer
