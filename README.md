@@ -21,12 +21,18 @@ The project includes functionality to preprocess the text data, build and train 
 To run this project, you need to have the following dependencies installed:
 
 - Python (version 3.9 or higher)
-- TensorFlow (version 2.0 or higher)
-- Keras (version 2.3 or higher)
-- Pandas
-- NumPy
-- Gradio
-- Matplotlib
+
+- TensorFlow: TensorFlow is an open-source machine learning framework. It provides a platform for building and training machine learning models, including deep learning models. In this project, TensorFlow is used for creating and training the sentiment analysis model.
+
+- Keras: Keras is a high-level neural networks API written in Python and runs on top of TensorFlow. It provides an easy-to-use interface for building and training deep learning models. In this project, Keras is used for constructing the sentiment analysis model architecture and handling the training process
+
+- Pandas: Pandas is a powerful data manipulation and analysis library. It provides data structures and functions to efficiently handle and manipulate structured data, such as CSV files. In this project, Pandas is used for reading the labeled dataset from a CSV file and performing data preprocessing.
+
+- NumPy: NumPy is a fundamental library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. In this project, NumPy is used for various numerical computations and array operations.
+
+- Gradio: Gradio is a Python library for quickly creating customizable UI components for machine learning models. It allows you to build interactive interfaces to make predictions or visualize results. In this project, Gradio is used to create an interactive interface for the sentiment analysis model, where users can input comments and get sentiment predictions.
+
+- Matplotlib: Matplotlib is a popular plotting library in Python. It provides a wide range of functions and tools for creating visualizations and plots. In this project, Matplotlib is used for visualizing the training and validation loss history of the sentiment analysis model.
 
 You can install the required dependencies by running the following command:
 
@@ -44,7 +50,7 @@ To use the sentiment analysis model, follow these steps:
 
 4. Evaluate the model: The score_comment function provides functionality to score individual comments using the trained model. You can use this script to evaluate the model's performance on test data or new comments.
 
-5. Run the Gradio interface: Use the Gradio link that appears when the code is ran to test the model with a GUI
+5. Run the Gradio interface: The code to launch the Gradio interface is included in the code, so use the Gradio link that appears when the code is ran to test the model with a GUI. For more help with Gradio see this link: https://gradio.app/quickstart/
 
 ## Dataset
 The sentiment analysis model requires a labeled dataset for training. The dataset should be in CSV format, with each row representing a comment and its corresponding sentiment labels. The dataset used in this project is from the Toxic Comment Classification Challenge on Kaggle:
